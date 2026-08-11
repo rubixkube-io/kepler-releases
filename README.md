@@ -17,9 +17,11 @@ executable, and put it somewhere on your PATH:
 | Platform | Asset |
 | --- | --- |
 | macOS, Apple silicon | `kepler-cli-aarch64-apple-darwin` |
-| macOS, Intel | `kepler-cli-x86_64-apple-darwin` |
 | Linux, x86_64 | `kepler-cli-x86_64-unknown-linux-gnu` |
 | Windows, x86_64 | `kepler-cli-x86_64-pc-windows-msvc.exe` |
+
+Intel Macs are not supported. The desktop app is built for Apple silicon only,
+and the client needs an agent to talk to.
 
 ```sh
 chmod +x kepler-cli-aarch64-apple-darwin
