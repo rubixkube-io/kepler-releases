@@ -3,7 +3,7 @@
 Download channel for [Kepler](https://trykepler.rubixkube.ai), the SRE IDE by
 [RubixKube](https://rubixkube.ai). Kepler is a desktop app you run on your own machine. It
 investigates with a real terminal and browser, keeps a local memory of your systems, watches
-the things you care about, and suggests rather than acts.
+the things you care about, runs automations for you, and acts only when you allow it.
 
 This repository carries binaries only. The source lives in private repositories and nothing
 here is built from this one. Releases are published by CI when a version is tagged and a
@@ -97,6 +97,9 @@ Installing from the app does not hit this.
 
 ## Versions
 
-Every asset on a release was built from the same tag, and the CLI from tag `v0.1.0-beta` is the
-one built to talk to that version's agent. Mixing versions is not supported: the client speaks
-a fair amount of the agent's API and the two are only guaranteed to agree within a release.
+Every asset on a release belongs to that release's tag, and the CLI on a release is the one
+built to talk to that release's agent. Mixing versions is not supported: the client speaks a
+fair amount of the agent's API and the two are only guaranteed to agree within a release.
+
+When the CLI has not changed, a release carries the same CLI binaries as the one before it.
+Take the CLI from the same release as your app all the same.
