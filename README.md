@@ -1,6 +1,6 @@
 # Kepler releases
 
-Download channel for [Kepler](https://trykepler.rubixkube.ai), the SRE IDE by
+Download channel for [Kepler](https://rubixkube.ai/kepler), the SRE IDE by
 [RubixKube](https://rubixkube.ai). Kepler is a desktop app you run on your own machine. It
 investigates with a real terminal and browser, keeps a local memory of your systems, watches
 the things you care about, runs automations for you, and acts only when you allow it.
